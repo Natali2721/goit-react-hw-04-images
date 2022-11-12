@@ -83,7 +83,7 @@ export const App = () => {
       {items.length > 0 && (
         <ImageGallery images={items} openModal={showModalImage} />
       )}
-      {items.length < total && (
+      {items.length < total && !isLoading && (
         <ButtonLoadMore text="Load More" onClick={onClickLoadMore} />
       )}
       {isLoading && <Loader />}
