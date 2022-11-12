@@ -1,4 +1,3 @@
-import React from 'react';
 import { ButtonIcon, SearchBox } from 'components/Styles/Element.styled';
 import { BsSearch } from 'react-icons/bs';
 import SearchForm from './SearchForm';
