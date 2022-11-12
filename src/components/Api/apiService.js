@@ -8,3 +8,10 @@ export const fetchImages = (query, page = 1) => {
     `/?q=${query}&key=${API_KEY}&image_type=photo&orientation=horizontal&safesearch=true&language=en&per_page=${QUANTITY}&page=${page}`
   );
 };
+
+//export const fetchImages = async (query, page = 1) => {
+//  const response = await axios.get(
+//    `/?q=${query}&page=${page}&key=${API_KEY}&image_type=photo&orientation=horizontal&per_page=${page}`
+//  );
+//  return response.data;
+//};
