@@ -5,7 +5,7 @@ import { Loader } from './Loader/Loader';
 import ButtonLoadMore from './Button/Button';
 import { ImageGallery } from './ImageGallery/ImageGallery';
 //import axios from 'axios';
-import React from 'react';
+//import React from 'react';
 import { Modal } from './Modal/Modal';
 import { fetchImages } from './Api/apiService';
 //import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
