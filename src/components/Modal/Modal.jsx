@@ -5,10 +5,8 @@ import PropTypes from 'prop-types';
 export const Modal = ({ largeImageUrl, tags, closeModal }) => {
   useEffect(() => {
     window.addEventListener('keydown', handleKeyDown);
-    window.addEventListener('click', handleBackdropClick);
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
-      window.removeEventListener('click', handleBackdropClick);
     };
   });
 
